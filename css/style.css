@@ -1,0 +1,233 @@
+@charset "utf-8"
+/* ---------------------------------------------------------------------------- 
+/* ------------------------------------Reset----------------------------------- 
+/* ---------------------------------------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #4C4C4C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------- 
+/* ------------------------------------Html-Body------------------------------- 
+/* ---------------------------------------------------------------------------- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #efefef;
+    color: #656565;
+    font: 14px/22px "Microsoft YaHei", arial, serif;
+    font-family: Montserrat, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-family: 'Microsoft yahei', Arial, sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+p {
+    margin: 0 0 10px;
+    height: 20px;
+}
+
+.wrap {
+    position: relative;
+    width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+/* ---------------------------------------------------------------------------- 
+/* ------------------------------------header------------------------------- 
+/* ---------------------------------------------------------------------------- */
+
+.TopTable {
+    height: 35px;
+    background: url(../res/topline.gif) repeat;
+    width: 100%;
+}
+
+.WebHeader {
+    width: 100%;
+    height: 60px;
+}
+
+.HeadRow {
+    width: 960px;
+    height: 35px;
+    margin: 40px auto;
+    vertical-align: top;
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo img {
+    height: 100%
+}
+
+.nav {
+    float: right;
+    text-align: center;
+    display: inline-block;
+}
+
+.nav ul {
+    margin-top: 8px;
+    padding: 0;
+}
+
+.nav li {
+    width: 70px;
+    height: 35px;
+    margin-left: 25px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.nav a {
+    font-size: 16px;
+    color: #111;
+    font-family: 微软雅黑, 宋体;
+}
+
+.nav li:hover {
+    border-bottom: 2px solid #2fb789;
+    line-height: 150%;
+}
+
+.nav .active {
+    border-bottom: 2px solid #2fb789;
+    line-height: 150%;
+}
+
+.banner_c {
+    width: 100%;
+}
+/* ---------------------------------------------------------------------------- 
+/* ------------------------------------section------------------------------- 
+/* ---------------------------------------------------------------------------- */
+
+section{
+    margin-top: 20px;
+}
+
+.title_2{
+    margin-left: 10px;
+    width: 70px;
+    line-height: 130%;
+    text-align: center;
+}
+
+.wrap-col{
+   margin: 0;
+
+}
+
+.BorderLine{
+    height: 5px;
+    width: 100%;
+}
+
+.MainLine{
+    width: 70px;
+    float: left;
+    z-index: 10;
+    border-bottom: 2px solid #218100;
+}
+.SideLine{
+    width: 100%;
+    border-top: 2px solid #9c9c9c;
+}
+.table_0{
+    padding: 10px 0 10px 0;
+}
+.table_1{
+    padding: 10px 0 10px 0;
+    border-bottom: 1px dashed #9c9c9c;
+}
+
+.TableTile{
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+.TableTile img{
+    float: left;
+}
+.service{
+    margin: 5px 0 5px;
+    height: 20px;
+    cursor: pointer;
+    line-height: 20px;
+}
+.service img{
+    margin-right: 10px;
+}
+.service a{
+    clear: both;
+}
+/* ---------------------------------------------------------------------------- 
+/* ------------------------------------footer------------------------------- 
+/* ---------------------------------------------------------------------------- */
+footer{
+    height: 125px;
+    background-color: #4a4a4a;
+}
+.Lfoot{
+    margin-top: 25px;
+    float: left;
+}
+.Lfoot img{
+    height: 30px;
+}
+
+footer p,a {
+
+    color: #AEAEAE;
+    line-height: 1.8;
+    font-size: 12px;
+    font-family: "微软雅黑","黑体","新宋体","Arial Unicode MS"
+}
+
+.Rfoot{
+    margin-top: 40px;
+    float: right;
+}
+.Rfoot li{
+    height: 19px;
+    line-height: 15px;
+    padding-right: 7px;
+    display: inline-block;
+    border-right: 1px solid #AEAEAE;
+}
+.Rfoot a{
+    margin: 0;
+    padding: 0;
+}
