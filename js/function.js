@@ -57,11 +57,18 @@ $(document).ready(function() {
             $(".banner .imgs li").eq(i).css({ opacity: 0.1 }).animate({ opacity: 1 }, 600)
         }
         //	$(".banner .imgs").stop().animate({left:-i*liLenth},600)	
-
-
     }
 
 
+/******************文章切换*************************/
+	 $(".tabTable .tabBtn").first().addClass("on");
+
+	 $(".tabTable .tabBtn").click(function() {
+
+        $(this).addClass("on").siblings().removeClass("on");
+        var index =$(this).index();
+        $(".article article").eq(index).addClass("on").siblings().removeClass("on");
+    })
 
 
 })

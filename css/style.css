@@ -60,6 +60,7 @@ h6 {
 p {
     margin: 0 0 10px;
     height: 20px;
+    font-family: "微软雅黑","黑体","新宋体","Arial Unicode MS";
 }
 
 .wrap {
@@ -322,8 +323,38 @@ p {
 .service img {
     margin-right: 10px;
 }
+/* ---------------------------------------------------------------------------- 
+/* ------------------------------------section-about-------------------------- 
+/* ---------------------------------------------------------------------------- */
+.tabBtn{
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+    background: #fff;
+}
 
+.tabBtn span{
+    color: #333;
+    font-size: 12px;
+    sfont-family: "微软雅黑","宋体";
+    cursor: default;
+}
 
+.tabTable .on{
+    background: #33BF8E;  
+}
+.tabTable .on span{
+    color: #fff;
+}
+.article article{
+    display: none;
+}
+.article article.on{
+    display: block;
+}
 /* ---------------------------------------------------------------------------- 
 /* ------------------------------------content------------------------------- 
 /* ---------------------------------------------------------------------------- */
@@ -363,7 +394,43 @@ p {
     cursor: pointer;
     text-align: right;
 }
+.advs{
+    margin-top: 10px;
+}
+.advs img{
+    width: 139px;
+    height: 145px;
+    vertical-align: top;
+        margin-right: 10px;
+    float: left;
 
+}
+.advsContent{
+    line-height: 1.8;
+    padding: 0;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: normal;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+    display: inline;
+}
+.advsContent p{
+    margin: 0;
+    font-size: 12px;
+}
+.advsContent span{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.advs img{
+    width: 139px;
+    height: 145px;
+    vertical-align: top;
+    float: left;
+
+}
 
 /* ---------------------------------------------------------------------------- 
 /* ------------------------------------footer------------------------------- 
